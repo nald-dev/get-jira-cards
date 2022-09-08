@@ -17,8 +17,8 @@ inputs:
     description: "JIRA target status"
     requeired: true
 outputs:
-  time: # id of output
-    description: "The time we get the data"
+  newReleaseMessage: # id of output
+    description: "New Release Message"
 runs:
   using: "node16"
   main: "index.js"
