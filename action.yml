@@ -1,0 +1,12 @@
+name: "Get JIRA Cards"
+description: "Get available JIRA cards"
+inputs:
+  status: # id of input
+    description: "Target status"
+    required: true
+outputs:
+  time: # id of output
+    description: "The time we get the data"
+runs:
+  using: "node16"
+  main: "index.js"
