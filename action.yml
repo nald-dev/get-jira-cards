@@ -1,9 +1,21 @@
 name: "Get JIRA Cards"
 description: "Get available JIRA cards"
 inputs:
-  status: # id of input
-    description: "Target status"
+  project_name: # id of input
+    description: "Project Name"
     required: true
+  jira_base_url: # id of input
+    description: "JIRA base URL"
+    required: true
+  jira_username: # id of input
+    description: "JIRA username"
+    required: true
+  jira_token: # id of input
+    description: "JIRA token"
+    required: true
+  jira_target_status:
+    description: "JIRA target status"
+    requeired: true
 outputs:
   time: # id of output
     description: "The time we get the data"
